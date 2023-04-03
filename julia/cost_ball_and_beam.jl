@@ -33,9 +33,9 @@ function create_plant()
           0 1 0 0;
           0 0 1 0;
           0 0 0 1]
-    Rc = [1 0 0;
-          0 1 0;
-          0 0 0.2]
+    Rc = [405 0 0;
+          0 0 0;
+          0 0 0]
 
     return ContinuousSystem(plant_id, A, B, C, D, actuator_id, Rc, Qc)
 end # function
