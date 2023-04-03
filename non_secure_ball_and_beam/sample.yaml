@@ -1,0 +1,13 @@
+sample:
+  description: Non-secure ball and beam controller.
+  name: Non Secure Controller
+common:
+    tags: introduction
+    integration_platforms:
+      - native_posix
+    harness: console
+    harness_config:
+      type: one_line
+      regex:
+        - "Hello World! (.*)"
+

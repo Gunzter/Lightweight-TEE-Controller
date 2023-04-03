@@ -1,0 +1,13 @@
+/* 33 = P1.01
+ * 34 = P1.02
+ * Connect:
+ * P1.01 <--> TxD
+ * P1.02 <--> RxD
+ */
+&uart1 {
+    status = "okay";
+    current-speed = <115200>;
+    rx-pin = <33>; 
+    tx-pin = <34>;
+};
+

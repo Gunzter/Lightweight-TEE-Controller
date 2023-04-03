@@ -1,0 +1,29 @@
+#-------------------------------------------------------------------------------
+# Copyright (c) 2018-2021, Arm Limited. All rights reserved.
+#
+# SPDX-License-Identifier: BSD-3-Clause
+#
+#-------------------------------------------------------------------------------
+
+{
+  "name": "TF-M secure controller manifests",
+  "type": "manifest_list",
+  "version_major": 0,
+  "version_minor": 1,
+  "manifest_list": [
+    {
+      "name": "Secure Controller",
+      "short_name": "TFM_SC",
+      "manifest": "${APPLICATION_SOURCE_DIR}/secure_controller/tfm_secure_controller.yaml",
+      "output_path": "${TFM_BINARY_DIR}/secure_controller",
+      "version_major": 0,
+      "version_minor": 1,
+      "pid": 300,
+      "linker_pattern": {
+        "library_list": [
+           "*tfm_*partition_sc.*"
+         ],
+      }
+    },
+  ]
+}
