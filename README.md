@@ -12,4 +12,4 @@ This repository also contains the `JitterTime` analysis as well as the experimen
 ## Authors
 * Martin Gunnarsson: `[firstname.per.lastname]@gmail.com`
 * Nils Vreman: `[firstname.lastname]@control.lth.se`
-* Martina Maggio: `[lastname]@cs.uni-saarland.de
+* Martina Maggio: `[lastname]@cs.uni-saarland.de`
